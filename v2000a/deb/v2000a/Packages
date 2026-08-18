@@ -1,0 +1,81 @@
+Package: cpupower-bash-completion
+Architecture: amd64
+Version: 6.12.18-r0
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: bash-completion
+Filename: ./cpupower-bash-completion_6.12.18-r0_amd64.deb
+Size: 1844
+MD5sum: 066c3386260311368c5de63141c5a5c5
+SHA1: cf6fd3407d42839a89484fa38d82e25a35964322
+SHA256: e8955be92cfcd1123000812c2b320322219d27b6bf342416e37857f7c1c667a9
+SHA512: dca4de507b7dce4abc1b65c68a23a30777c055399c1e03f387488665d127750923993eaaf9dd8ce8358276e0433cf67bf229b760e6616043edfb316e8c09864f
+Description: Shows and sets processor power related values
+ cpupower is a collection of tools to examine and tune power saving
+ related features of your processor.
+OE: cpupower
+PackageArch: v2000a
+
+Package: perf-python
+Architecture: amd64
+Version: 6.12.18-r2
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: bash, libatomic1 (>= 15.3.0), libc6 (>= 2.43+git0+e9517114ac), libcrypto3 (>= 3.5.7), libdebuginfod1 (>= 0.194), libdw1 (>= 0.194), libelf1 (>= 0.194), liblzma5 (>= 5.8.2), libpython3.14-1.0 (>= 3.14.5), libstdc++6 (>= 15.3.0), libtraceevent1 (>= 1.9.0), libunwind (>= 1.8.3), libz1 (>= 1.3.2), libzstd1 (>= 1.5.7), python3, python3-modules, slang (>= 2.3.3)
+Filename: ./perf-python_6.12.18-r2_amd64.deb
+Size: 1094168
+MD5sum: 6e6f3b3f246679ab36cd9f889d13f8d4
+SHA1: 6fb3cdbc97a54595cdd87748d902b3e3e5e605b3
+SHA256: 1ad76e361675dd56d97f4b1bf3296992dda15679efffb6bce2d2c5a92958ad76
+SHA512: f56663d48f399e66426eb0aecf9a3dd9e23923ba8409185c83f75f4ccf3e215c5cb7162ac09494fe07112874699f9764fe2994df255c4210d2247d67060eb5a5
+Homepage: https://perf.wiki.kernel.org/index.php/Main_Page
+Description: Performance analysis tools for Linux
+ Performance counters for Linux are a new kernel-based subsystem that
+ provide a framework for all things performance analysis. It covers
+ hardware level (CPU/PMU, Performance Monitoring Unit) features and
+ software features (software counters, tracepoints) as well.
+OE: perf
+PackageArch: v2000a
+
+Package: perf-tests
+Architecture: amd64
+Version: 6.12.18-r2
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: bash, perl, python3
+Filename: ./perf-tests_6.12.18-r2_amd64.deb
+Size: 143848
+MD5sum: f4ace180f5b4ad7233b87d1a76673df5
+SHA1: 3c858ba7364b62a05b453bc51684a6f1e72b0265
+SHA256: 93e820db03a9160ebebf797580fab69ad9d276a83e21adb566a932fd6635c537
+SHA512: 9c07268c1a214c8ebe1619dcd27da953a0eff058c4106080d65cfc4519ca5d25edbc142ca18fa4e5defa1d082169e8486091168825db935af700f5480bf5d123
+Homepage: https://perf.wiki.kernel.org/index.php/Main_Page
+Description: Performance analysis tools for Linux
+ Performance counters for Linux are a new kernel-based subsystem that
+ provide a framework for all things performance analysis. It covers
+ hardware level (CPU/PMU, Performance Monitoring Unit) features and
+ software features (software counters, tracepoints) as well.
+OE: perf
+PackageArch: v2000a
+
+Package: systemd-bootconf
+Architecture: amd64
+Version: 1.00-r0
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Provides: virtual-systemd-bootconf
+Filename: ./systemd-bootconf_1.00-r0_amd64.deb
+Size: 956
+MD5sum: d69d1b137e8cc973b433822436909fe0
+SHA1: 4a11e0f808bbc4a5fbfecc6acee947bd3686656a
+SHA256: 5f83424bfa048424a2b6cfbab0f9de2e9819be91e772f1787656b31347d5da8f
+SHA512: bc15a95ded39f53fd550c7230afaf9e67eac04431b621bb3abace5d747ef35b48b6df3115ac91751181aaffd9282ad5e02b5f96d6e8bb557ecedadc1f5371edb
+Description: Basic systemd-boot configuration files
+ Basic systemd-boot configuration files.
+OE: systemd-bootconf
+PackageArch: v2000a
+
