@@ -1,2 +1,0 @@
-*.deb filter=lfs diff=lfs merge=lfs -text
-all/linux-firmware-mellanox_20260410-r0_all.deb filter=lfs diff=lfs merge=lfs -text
