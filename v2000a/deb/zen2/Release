@@ -1,0 +1,18 @@
+Label: zen2
+Date: Fri, 21 Aug 2026 11:44:37 +0000
+MD5Sum:
+ efcab183fb839c95a2dfa95a18ca6bf3          2087573 Packages
+ 57ea01e04b07dd5fabedfed562c5edef           529157 Packages.gz
+ 4ad828c10b49e4eeec3d3d0556e687a5               50 Release
+SHA1:
+ ba8bda2041bfe12302b96cfae125c1f538aa809f          2087573 Packages
+ 7f9af09d607a8c11198a86a1799d69b1068aec52           529157 Packages.gz
+ 6cbcdcf6d7605a0af1f03340de705fd998161ddd               50 Release
+SHA256:
+ 8eec6adc0ab53eadf0f40a8c4d96a6b7fa5ba3f3bae8bd46f890a74c7ecb1a0a          2087573 Packages
+ 140b83baac52cdb0a113174fe6ae01b76af8fa2433f01b86d325b65dc4003b6e           529157 Packages.gz
+ c8ca94830e3e9fc308354383f97c4cda8e8db7edc3b92c97b4fd2a856a4aa904               50 Release
+SHA512:
+ 608ed93ce08ee5b130b1d031fbe635f4044b3ee95d42a98fc8a018d1dcde452cda05e626da6e6a77d0dc272a6f8881596b48be41c2c77626c5afd1f2d2e726aa          2087573 Packages
+ 4c4cb873631baa6f4728dc2ae13d8b111d401eb63a6c3022f992fc1ee3ac40df44f8f4a717727bae1e0ffd02d987603981af866551b7bda9ea4d43979171478a           529157 Packages.gz
+ 0f58413fb61468cec438f8322eb9120f159f94b0f2bb2e975a128a84cdceddacc0716db5749a8a84d384e88211cfe6f34aa07f5a20b74c5a1b22f2aa8320c297               50 Release

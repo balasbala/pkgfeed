@@ -1,0 +1,716 @@
+Package: adwaita-icon-theme-cursors
+Architecture: all
+Version: 49.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: x11/gnome
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: gdk-pixbuf, gtk+3, hicolor-icon-theme
+Filename: ./adwaita-icon-theme-cursors_49.0-r0_all.deb
+Size: 291876
+MD5sum: b2e2341217ae532dc2278e889765e7c2
+SHA1: 5dddf3d64632378b0f628dc9ca285c8fc9cbf5eb
+SHA256: 28dcc23217ca322dae5645236baf9ef24309b65b36b488ee6413ecf9c5a42c2b
+SHA512: efd8baf11f6eb9f22a40a7b8068a94366a099fe6ad3efe0a21de85f8c0b9002ac341c6800ac973075d254e0513c3f8353724aa87a0673dcea36bca90739bbee6
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+Description: GTK+ icon theme
+ The Adwaita icon theme is the default icon theme of the GNOME desktop
+ This package package contains an icon theme for Gtk+ 3 applications.
+OE: adwaita-icon-theme
+PackageArch: all
+
+Package: adwaita-icon-theme
+Architecture: all
+Version: 49.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: x11/gnome
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Provides: gnome-icon-theme
+Depends: gdk-pixbuf, gtk+3, hicolor-icon-theme
+Conflicts: gnome-icon-theme
+Replaces: gnome-icon-theme
+Filename: ./adwaita-icon-theme_49.0-r0_all.deb
+Size: 73432
+MD5sum: f9705d04fd4a0d03ad284212d299b0b0
+SHA1: 7ab3fe5dfd515823db7c84ee35700f2704407f24
+SHA256: 8c9092855933438316e5542416693c5c4ec5d28e556b530d0d6ab1a7616da2c2
+SHA512: 9e05f4bcc447ad797ea4a9cbd52262b8bac07c5251a650a15b23a110e5441ae2610eec4dc4182ebccf4f15db6107da9696516bbcfe0a08b165e9b7560f144258
+Homepage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+Description: GTK+ icon theme
+ The Adwaita icon theme is the default icon theme of the GNOME desktop
+ This package package contains an icon theme for Gtk+ 3 applications.
+OE: adwaita-icon-theme
+PackageArch: all
+
+Package: encodings
+Architecture: all
+Version: 1:1.1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: x11/fonts
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./encodings_1.1.0-r0_all.deb
+Size: 573400
+MD5sum: 3f9b380bbcf7bab09e4eaa53668a5af3
+SHA1: 70a671e2c82c080d49ac1a02ffa69d2071f5522a
+SHA256: bd6c8b0d4c00c33b35ae18dc67bb9c4a281fb07d8b031d74aba38f73365fc0d5
+SHA512: 2bea5f184679410e24e9b601d16417b651c64407cb68a48ea75436f5662200aa7e81bcc9cef5c99073b77cbbcbfcdf029ef9c0a2f29bb82887f278a200bff976
+Homepage: http://www.x.org
+Description: The Xorg font encoding files
+ The encodings that map to specific characters for a number of Xorg and
+ common fonts.
+OE: encodings
+PackageArch: all
+
+Package: initramfs-framework-base
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Recommends: initramfs-module-rootfs
+Filename: ./initramfs-framework-base_1.0-r0_all.deb
+Size: 3064
+MD5sum: 42846bf16dbe37a5c03d533aa991605b
+SHA1: 2d5a971aa27e20627baeacd6b4c2ce9a7bb25b25
+SHA256: 61de746053061515b87f7d5c7de10355bb685e80fb1960ecde6951142327e65e
+SHA512: 447bc4f1668891e7e87d5f8f28979a7a0512cf7ba3123b32073b27fe9525649068878c0acef3db5993d42e0ee87f699f14f9c34e7c42647209f245f4d453b1f8
+Description: Modular initramfs system
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-debug
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base
+Filename: ./initramfs-module-debug_1.0-r0_all.deb
+Size: 1476
+MD5sum: 353cbe07291ae234c2343c49819b6518
+SHA1: a2e05e61df79b2df1b0baf4c6725d775208ed9f1
+SHA256: 03052ae0af2516764bf2c4c8fba67627b12718b4359145a5c2535c0fd7458a3f
+SHA512: ee21fe6bd042ea69c3cc9167f0f221bc53b148237bbe717b57caa35ab3943b552940ec01dda9fb6a2b652070327c77c98fbdc048a45a0f7548a67838d13508fa
+Description: initramfs dynamic debug support
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-e2fs
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base
+Filename: ./initramfs-module-e2fs_1.0-r0_all.deb
+Size: 1168
+MD5sum: b4a3976f243a56e7bc5b7eb831246c9a
+SHA1: 06b374ce59463849fc6ea5b9df88b6c13de84ed9
+SHA256: 39c2af002fa64880174e5bee6ad935a719aec972a51afc7169f513be30b8c87c
+SHA512: e7d1d19ed3867d7107aba453986a8734ddf3242dbfebe36ccb90fae5f944dc7398194d1af3f0d82cff5634086dfccb5b513fa6926577763cf9c187b5eecdda40
+Description: initramfs support for ext4/ext3/ext2 filesystems
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-exec
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base
+Filename: ./initramfs-module-exec_1.0-r0_all.deb
+Size: 1168
+MD5sum: 15072569008bfcfa3344ed0bc55d4cd3
+SHA1: 1676d17c8e29f6d954c126fe4e7bf218bccd3e8d
+SHA256: 2480c89c2e29d1f003f93d341f83651d7416ce5c7a57e5b90cce8c73c523f71d
+SHA512: 34687af41857b34ccb16e603c4cf6811b903925c9b821facc61b1c577dfd0314e7da8c038365e6613006052322ad19a631585b4b10a2c06e6599df096bf545a7
+Description: initramfs support for easy execution of applications
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-lvm
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base
+Filename: ./initramfs-module-lvm_1.0-r0_all.deb
+Size: 968
+MD5sum: 0cc781e4d3229b53e268beebf32ee179
+SHA1: 952c0fa2f31a1542869e0568409d8b8c2f4e369e
+SHA256: d1b5dff5b7359f5a337fb0e2b052a4bb7ec8fb8668bdd4704790dd7fde4f7d6f
+SHA512: 68f82c2326bfbe82c58104b23cd1bea23b4b1b25a266a88f1f77fe511826dc4a9fce7a8cd90341a572644e3650ac48289f81b5f5365c36e251f467fb7978c912
+Description: initramfs lvm rootfs support
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-mdev
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: busybox-mdev, initramfs-framework-base
+Filename: ./initramfs-module-mdev_1.0-r0_all.deb
+Size: 1172
+MD5sum: 62a80d37c898fbc2500f6cc455a02de2
+SHA1: a56d19572251fb2e2913c3d740e459fc09eb9a49
+SHA256: c1c6d926e313b7efa8da29a7b616d257de253a38b0bc1182ce8b8d7b922216b7
+SHA512: 5e649578e5271c61d4c6caf5965edd764e51fea8a8c725ce64bcd6374ce2e155765b5b8cf50808468b706f2b7e37e7f445062dca7cde2681df050ae5963c139d
+Description: initramfs support for mdev
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-nfsrootfs
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base
+Filename: ./initramfs-module-nfsrootfs_1.0-r0_all.deb
+Size: 1320
+MD5sum: d306dff85a7e1a6c13170881079d611f
+SHA1: 668bc35337fea0c63d14d9901deeea0a2ef2cbcc
+SHA256: c797379684bf4cd54fbd470f9ef25fbac958b0c0b8858074701f15ee4e7a8dcd
+SHA512: e8af86ba1d1d52d20b89cdf40f749f3d55332584468b61107e6aa5ef17344b4c737d8406c152be5c3c182b3a9b28f014ef8254ea832b0251ec39eb27626269c7
+Description: initramfs support for locating and mounting the root partition via nfs
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-overlayroot
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base, initramfs-module-rootfs
+Filename: ./initramfs-module-overlayroot_1.0-r0_all.deb
+Size: 2516
+MD5sum: 29fdadba82c1cc64ae6b0e3ce751b88d
+SHA1: 777ba5234c78cca3de52d377cc96d0274707e960
+SHA256: 3f9d5dedce128a792f879f65d5788b442b5aa3c5f0505d34c20fa9636ec580e4
+SHA512: 4a9c0dd859efc73ac6ae48173234d1e9a7f6bceba5a0eaec7866f0801ced01ca132a020a224d13ffd4f527d8896efcd1b433bf84297ab9262d71dbff2999dfd4
+Description: initramfs support for mounting a RW overlay on top of a RO root filesystem
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-rootfs
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base
+Filename: ./initramfs-module-rootfs_1.0-r0_all.deb
+Size: 1656
+MD5sum: e74172be1c242fdee19cf8d7f329c744
+SHA1: cf1449707688b678126bd4425e96c771aa29627c
+SHA256: 8db6331785fa089e0c9b77f4f04512ecb672393fe9fee80dfdc07857c056b97f
+SHA512: de4f39af9b1ba1ee32d2dfd5fb74e38f32c5229b03b840c014786cd309411325f468ba7c6d1ee956868e33c325a83ad64c09584655238b2e8b8af023104878cf
+Description: initramfs support for locating and mounting the root partition
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: initramfs-module-setup-live
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base, udev-extraconf
+Filename: ./initramfs-module-setup-live_1.0-r0_all.deb
+Size: 1620
+MD5sum: a5ed3e0bd9b1e65c3ec26a9ce66a6523
+SHA1: 868f8cf71b86d202c871b65f63db047e9e7b06ca
+SHA256: 4c4e1530f9b99437fba64d24bb24688bad8ee764a04201901ad9eb4ec8268f88
+SHA512: 778e5aadf732b1617b3c3c08523f49b1a18156548fbfdf3a5504eac9d92458cfc582af28d542c70aed8ece90dc9e122c4a0ea88bfcfa8bcf92050a33c2a006d8
+Description: initramfs-framework module for live booting
+ initramfs-framework module for live booting.
+OE: initramfs-module-setup-live
+PackageArch: all
+
+Package: initramfs-module-udev
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: initramfs-framework-base, udev
+Filename: ./initramfs-module-udev_1.0-r0_all.deb
+Size: 1396
+MD5sum: 21f7d04c91133b2ae42479ba77b3b4ec
+SHA1: 07c7b51e3cb15848909164efac526b6525a5abf6
+SHA256: 21e375a1a33ce512965a9bd8bfe3798012f87e5554983358a4c87cd72beecd6c
+SHA512: 0ce05245781ead2b3e311d280b082dcbb2a31d879bbddd2e5e3c17008947aef662c1c831dec3fc210e255240de4ffef1cc702bb1ff0fcfd851bd096018be1aef
+Description: initramfs support for udev
+ Modular initramfs system.
+OE: initramfs-framework
+PackageArch: all
+
+Package: iso-codes
+Architecture: all
+Version: 4.20.1-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./iso-codes_4.20.1-r0_all.deb
+Size: 258508
+MD5sum: 6bb797b1d27ec20c654638c2f0b0dc84
+SHA1: 22e097529e0847257543ca4ffa60545dd691e36b
+SHA256: 5a8c155b3317e8c6dc947c1bec1925c45607c9b9f9a96cd9a30149f019db60f3
+SHA512: 4b19bda43c013696a746ff7e98f5a148c9f51a4a26dab68736f7d24c9027909d5e74fce13cf8f31587fbda86012ce30ddd9dc993ed82b2566eede39ccbdcdb22
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+Description: ISO language, territory, currency, script codes and their translations
+ Provides lists of various ISO standards (e.g. country, language, language
+ scripts, and currency names) in one place, rather than repeated in many
+ programs throughout the system.
+OE: iso-codes
+PackageArch: all
+
+Package: os-release-initrd
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: os-release
+Filename: ./os-release-initrd_1.0-r0_all.deb
+Size: 900
+MD5sum: f93b01f294be285a36f24c115f9f9b5d
+SHA1: 27e0e5efdfc1358a3a0308f9f70025b7cc85758a
+SHA256: 5665b6b086fc84dc71788233746f3767e3aa2180d271ae796040a4dc8b251d28
+SHA512: 016b95d9b256895356259f9cde07a2f9de3eb3ac3684c92f7d20997708f24d99f8305ba2f2968836da0eec3a79e13f1ed0b583c08468d521e5510658ed7853d1
+Homepage: https://www.freedesktop.org/software/systemd/man/os-release.html
+Description: Operating system identification
+ The /usr/lib/os-release file contains operating system identification
+ data.
+OE: os-release
+PackageArch: all
+
+Package: run-postinsts
+Architecture: all
+Version: 1.0-r0
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: util-linux-flock
+Filename: ./run-postinsts_1.0-r0_all.deb
+Size: 2592
+MD5sum: ab62f4641c6024539da8fccc45d30db2
+SHA1: 126cba3fee688233fb4e8a16b65e77f35b3f3fdf
+SHA256: c9f8f13487f5958ef6ecfde1e2147f9c4f6453f539898f774d87dbec758f2578
+SHA512: dc066af475eb0b71d35d93dee612e0d7288c210ac7decab60c54caacb016009e9f1d67e29f51b84e4dba09f3eef587a31f8cbe8939ff073c2f7e87bf9899b808
+Description: Runs postinstall scripts on first boot of the target device
+ Runs postinstall scripts on first boot of the target device
+OE: run-postinsts
+PackageArch: all
+
+Package: ttf-dejavu-mathtexgyre
+Architecture: all
+Version: 2.37-r0
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: fontconfig-utils, ttf-dejavu-common
+Filename: ./ttf-dejavu-mathtexgyre_2.37-r0_all.deb
+Size: 210584
+MD5sum: 0767c95acd364dfa816ee0e04c7965ed
+SHA1: 9ed0166728de6e14e118fa5cbeb1d3f3cb1e5f5e
+SHA256: cfaefd50a81c5953d92ccb50aad450ba62d782cca67df3cada006f0e2f7ec2e0
+SHA512: 270c51478faba66763beb834f6dd21d6a3ea439ad3e6dd7e89e441bc23cfeeee25a30879c81ec6928828e3ee517272f213fb4c7ba534031627a459f34afbcbfa
+Homepage: http://dejavu.sourceforge.net/wiki/
+Description: DejaVu font - TTF Edition
+ DejaVu font - TTF Edition.
+OE: ttf-dejavu
+PackageArch: all
+
+Package: ttf-dejavu-sans-condensed
+Architecture: all
+Version: 2.37-r0
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: fontconfig-utils, ttf-dejavu-common
+Filename: ./ttf-dejavu-sans-condensed_2.37-r0_all.deb
+Size: 676332
+MD5sum: 9590ec07b5d9a076517fe0212ecd5485
+SHA1: 251076c1662f861a994d0a6d520f20711de97560
+SHA256: c26388f2141649cea9089d4fb2f0f9db159b4c5e248fa5ac76372abd47c2a843
+SHA512: 0887115a3e301ac81a20d2c0a07908433021e95e31bbca6ef65dd09a028187ed862a99f68494735ea23516a1ec09a25c4d061b06f32d1ae4f0356c5c536f269e
+Homepage: http://dejavu.sourceforge.net/wiki/
+Description: DejaVu font - TTF Edition
+ DejaVu font - TTF Edition.
+OE: ttf-dejavu
+PackageArch: all
+
+Package: ttf-dejavu-serif-condensed
+Architecture: all
+Version: 2.37-r0
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: fontconfig-utils, ttf-dejavu-common
+Filename: ./ttf-dejavu-serif-condensed_2.37-r0_all.deb
+Size: 451444
+MD5sum: 8e79075172e5d97541a655eb6d66d1b2
+SHA1: d7303326c60364b2899af574d040a405264b7063
+SHA256: 8ba2a2574f15a19783ea6b439dde11d8eceb8ee78f0509e3f3f393ff0637c7a6
+SHA512: eeaf39f7a25f26d3bc09b55e92bc65011c6c4afcb4348d2bef9326fd697334e68aad0d3f23845daa135f0452cdaf061d160c01d5ad1da3bac7dcc84110863151
+Homepage: http://dejavu.sourceforge.net/wiki/
+Description: DejaVu font - TTF Edition
+ DejaVu font - TTF Edition.
+OE: ttf-dejavu
+PackageArch: all
+
+Package: tzdata-africa
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-africa_2026b-r0_all.deb
+Size: 4192
+MD5sum: 82eb3bd3ab83aa5a060ae611854fa18f
+SHA1: 761f7f3a3992671530f24c8273b254b33e18fccd
+SHA256: 234a9127e30356110f048bd1de378183e31fb3fc4c408cf5da0773fade117d07
+SHA512: 9ac2bf1f27730b7abada2311407fa6f6ae19d3aa20845f21f4a74f31addb10da5d698b280c540f40f516d944c7113ab7dde3fd5c694c436ca0eb01da9371c81d
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-americas
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-americas_2026b-r0_all.deb
+Size: 18428
+MD5sum: b1a693da0742372b688e395452332067
+SHA1: 89421f77e7bcb51ad741dc169de0f1608f2da5bd
+SHA256: d6c2e32dbf7ae59e74637092eac277b59d0baca86edcc05c8dc47a56acda5295
+SHA512: 571c9d3729697008eaacc2c4542cb7d22b3328a815666aa03bdb953e0e29d20281ca9e2fe672f688bfacd468f30afef6eec413047c7be6c305d54bfb6331b28e
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-antarctica
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-antarctica_2026b-r0_all.deb
+Size: 2752
+MD5sum: ffc3db362608c00908b334f6d0c7d7e6
+SHA1: f39ac857b286077208c1d1d9ec84be7718fee539
+SHA256: 5df5e482ecfaed1a2de317ff644df113e90c19a31955ea186bf2e960f69cdd7d
+SHA512: 97b1dc85ba746548f141131a69be044d1783e889a4eabca3cc78646025373a6481e4054054c4b7b20ab06f57643a29b0c30a0947c363d271d85e3b6cb20972e7
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-arctic
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-arctic_2026b-r0_all.deb
+Size: 1284
+MD5sum: 6fa80a0ad1dbded4cb15d1dba2232a06
+SHA1: 82d8c80901717ad8be6055948098985b3d253429
+SHA256: 9248f78ec7acb58e9e590fa75488d2eafcf086a13d8487f5cadbf7f48d86f1c4
+SHA512: ce1c407dd6eb24cc871feed374b7f07c0928044e9f0360792f1cbafc5e6c8cf310286313bd6872f1b5cc9b0b858ccf3c567328967c11080282fbeecd0f9a1482
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-asia
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-asia_2026b-r0_all.deb
+Size: 12080
+MD5sum: 450365f89aa718ccf17b5dd69f112a9d
+SHA1: 287598634621ebc13a6b0ea455c2ec789c3df361
+SHA256: 1dcaf0b716da2d868a129dd2da10bd034aaffc04739baabeb05a22c280164cd5
+SHA512: 4928e82706e4768011ac3921ba5b1357e1e61450b357b8f3e0d30c5778f4432bc949971f6a6d3a79bf6a50a68e6d714e8ae820d370eee6e5e66d79481fc98538
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-atlantic
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-atlantic_2026b-r0_all.deb
+Size: 3144
+MD5sum: 1ed59c641e5207d75c322b2bc44be880
+SHA1: 4c3916c7fd6adb3c3da7984d71ff2f9d3466d377
+SHA256: 1bd6ed41af995b02f8ed41eb700603d2c45b6893ac6fe8deb24bef222a41d32e
+SHA512: 81ca6b9a53b9925b18ece712f5a9ecd3a93c4c864a0c922b1a5aca30980adc7ccd9739152fc1ed857ba0bf599fdaf8be52ace8263455fedf332f38e9d6b9da25
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-australia
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-australia_2026b-r0_all.deb
+Size: 2676
+MD5sum: 713fd6ddaf41cde1258609dc4325ee88
+SHA1: b5192f1927367010b7612e2cf24af0c14b125f47
+SHA256: 1f601a06d417b3528d6a07d9772894f8e2f7ac3ca78320d7e64b9cdd9e0ab5e5
+SHA512: ccbc3bb38d4eeaa61792cb6eb064c4452395515f0a70ea581d2ebd818ce168317b815973073b97e8379ace6d9c967ea22710da7a24bd1d4199ddf450e067332b
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-core
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-core_2026b-r0_all.deb
+Size: 45368
+MD5sum: 3db6a1bd1bd3781f9c884fc478bf705f
+SHA1: 9fd55b20b638cd72c81845ed73e04f8383ae7841
+SHA256: 44ed4ced805212de8169bf12adb4545c86a6c9bb548080c4da47fdfe32b5e88c
+SHA512: 5561ade1b9ea05c1f29b31d13bf0641f2e14cbcef1a535225c1f7129ee11890f1ed1ecfac985097de6c06c4efcaf9da594540634bde0ba43fb6f1c8deeaf88d7
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-europe
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-europe_2026b-r0_all.deb
+Size: 7616
+MD5sum: 7c2ed302ed1c686c7be55ef72885df26
+SHA1: bdab7233164d41050889a39a6975df06a91a730b
+SHA256: b5a33d27acca728b345f3107936ce60a280842dc547502dbbe17221d0629d930
+SHA512: e10b3f88d1614e769afb71e4ce8bca181595bcdc0915e76a402fd9e36309ad24cb761e1898c72a5a43f9f41963e1142c2253cbf48044904ec5c5e6ac9daedf35
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-misc
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-misc_2026b-r0_all.deb
+Size: 6428
+MD5sum: c55163778d7e9052e62df3259debf99c
+SHA1: 0d94b53a06f8b36f307f4962e25c65cfca56c124
+SHA256: f2ba17e6eee7db6b694b45860c736cf7e1c39e71cd57915b3f6306b86256585f
+SHA512: 14b691d3a58d3a0fee5b1ffda4968feb3ce0daa9c57a41c1ff9b7d6ec6b016396879c21617c850acd4531919ca55ff7d9ebc1d523264d90c98e3bb95955f5fbb
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-pacific
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-pacific_2026b-r0_all.deb
+Size: 4352
+MD5sum: 39c4a1c2513d7ddddfe886fcaf84e762
+SHA1: ef2885898d5ce73b30535abae10ccebc87120f14
+SHA256: 26a9e0fea77bc53229a717edb95dc8cb78f4841f06a48d825ad2de49c52f70a4
+SHA512: 418110aacf4911caa29a15cd815699628b4a0381ce5cc01c8bfa694b4d80e157270746d5556ff1d71cffcf44e325059a53bf5984e5f1bb02bc707e680454d48a
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-posix
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-posix_2026b-r0_all.deb
+Size: 45544
+MD5sum: f7281b83a112885ebd2c8459e00e9ae0
+SHA1: abbfb3ffc9d32cf517bab8291ad34ae679e5a0ea
+SHA256: 89e511b18c1a1d775417cfac1e4fe13f886b4b02763ad0f0d497fe78ec952602
+SHA512: bc93fbaad9178e495520d79c90bbd9e0bf6d9a1b1cd5cbbe9c0766ce5e3284de64218c5aaeab61f3bb540ce97d8305b30ff50f262862e31e2d147ebda314c5de
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata-right
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./tzdata-right_2026b-r0_all.deb
+Size: 47600
+MD5sum: 65b61ff9f4ff05ec1a45246f753f9479
+SHA1: 2d8c58ec5d295e50d5e83654df15dddeaf3ab2db
+SHA256: 9d823946718609b5a879f60063062bcf1a68720dc8e27f4a1d04dc7103adcb02
+SHA512: a6849f84a70e064fc6b7c854848585371f8590c20c6914575324f1f54d0d263e864a3b477f8a3a7c89ea558aa05fec31c51534686e53da28754c36a8aefec3ae
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: tzdata
+Architecture: all
+Version: 2026b-r0
+Multi-Arch: foreign
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-core, tzdata-europe, tzdata-misc, tzdata-pacific, tzdata-posix, tzdata-right
+Filename: ./tzdata_2026b-r0_all.deb
+Size: 1228
+MD5sum: fea489fd66ba5f83ea91aa106dd4f0fa
+SHA1: d391d8ad55d5da3a91b34c9f1234c1e1a72afb25
+SHA256: bbb66d263b64b1d9ae0fc36a47a19b5aecd04e8745f16b6ac94e3d4e274ef6dd
+SHA512: 2c1385c4eef42613a729ba9e4b5e41b4bbeac3f5bba1c97af4a806f1cde97fe7920af32feba35cf561e273e681ad94481bcef45013721ee5c8ab6b3a0d0ef61c
+Homepage: http://www.iana.org/time-zones
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+OE: tzdata
+PackageArch: all
+
+Package: wireless-regdb-static
+Architecture: all
+Version: 2026.05.30-r0
+Multi-Arch: foreign
+Priority: optional
+Section: net
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./wireless-regdb-static_2026.05.30-r0_all.deb
+Size: 4080
+MD5sum: 0933e5e4c1b645f5b061d310061d0beb
+SHA1: 1130fff48c7e9e93e833c7e05752588fe22818fd
+SHA256: 94f64117f11cfc7ee0f0296cc3b4eb403aaa3907390b746627293f9fed8607c3
+SHA512: 8bd95507ccc29f5d3895a7cc537693882ae64d317f4c747a26e2e0e3c2c6820167ea6b033b55ec9885a54da6694ff9ce6758968707bcda2fe89ac463e482d4e6
+Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
+Description: Wireless Central Regulatory Domain Database
+ Wireless Central Regulatory Domain Database.
+OE: wireless-regdb
+PackageArch: all
+
+Package: wireless-regdb
+Architecture: all
+Version: 2026.05.30-r0
+Multi-Arch: foreign
+Priority: optional
+Section: net
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Suggests: crda
+Conflicts: wireless-regdb-static
+Filename: ./wireless-regdb_2026.05.30-r0_all.deb
+Size: 4092
+MD5sum: 27c436732f208e2804adfee72b0f3315
+SHA1: dd262bff9dea1d2d71a46712374d9106fa9b8576
+SHA256: b9da008c5a86e7b3ff33728e425b886ab511c540e8e8077c475a8de0d4c7f45a
+SHA512: 7ae82c973a879e8b198e1a4638ee20ddecdfc16ac6d66e569696996d075c6ee5c27c84a01ea917cb0bee6e71b7f1f4a9861997b8ba329eb81f0300553ffe4140
+Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
+Description: Wireless Central Regulatory Domain Database
+ Wireless Central Regulatory Domain Database.
+OE: wireless-regdb
+PackageArch: all
+
