@@ -16689,25 +16689,6 @@ Description: openjpeg version 2.5.4-r0
 OE: openjpeg
 PackageArch: zen2
 
-Package: openssl-bin
-Architecture: amd64
-Version: 3.5.7-r0
-Priority: optional
-Section: libs/network
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Depends: libc6 (>= 2.43+git0+e9517114ac), libcrypto3 (>= 3.5.7), libssl3 (>= 3.5.7), openssl-conf
-Filename: ./openssl-bin_3.5.7-r0_amd64.deb
-Size: 340904
-MD5sum: fbaeb77b11247a8b45fc592e73b70129
-SHA1: dce4c2039848b75837e5cc9015449f162ebef2d1
-SHA256: 525e98295eb1d115105f1139a1a5dd8851c913ae0610484b7a13b9b6e74a6106
-SHA512: 55be84a81bc6b52be858354a87aa787311775b4621285e14425681be85f5b1aaab4763ef7bdbe782b616be928cf77fcca0619e863a2bbeb456141a6fbc289f0b
-Homepage: http://www.openssl.org/
-Description: Secure Socket Layer
- Secure Socket Layer (SSL) binary and related cryptographic tools.
-OE: openssl
-PackageArch: zen2
-
 Package: openssl-dev
 Architecture: amd64
 Version: 3.5.7-r0
@@ -16727,24 +16708,6 @@ Description: Secure Socket Layer - Development files
  Secure Socket Layer (SSL) binary and related cryptographic tools.  This
  package contains symbolic links, header files, and related items
  necessary for software development.
-OE: openssl
-PackageArch: zen2
-
-Package: openssl
-Architecture: amd64
-Version: 3.5.7-r0
-Priority: optional
-Section: libs/network
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Filename: ./openssl_3.5.7-r0_amd64.deb
-Size: 1248
-MD5sum: 958fb2fdc43cd07ac60037b6a5e7d3be
-SHA1: d1a28690997663f745ad71c83aeddf2107a068f2
-SHA256: d8ba7f4820870f5b4623483a70089e36a61fd1729f06be399c4271fdcc4d71dc
-SHA512: f215df39a50a9b2add096e169b4e4cc544f24a4452c2d6b2cb543015f19868d654d38f1b1362696ae4fdbe382e2554506eb04172c4bbf5b7ffa849b9d0adde72
-Homepage: http://www.openssl.org/
-Description: Secure Socket Layer
- Secure Socket Layer (SSL) binary and related cryptographic tools.
 OE: openssl
 PackageArch: zen2
 
