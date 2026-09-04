@@ -901,6 +901,28 @@ Description: Very high-quality data compression program
 OE: bzip2
 PackageArch: zen2
 
+Package: cmake
+Architecture: amd64
+Version: 4.3.1-r0
+Priority: optional
+Section: console/utils
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libarchive (>= 3.8.7), libc6 (>= 2.43+git0+e9517114ac), libcurl4 (>= 8.19.0), libexpat1 (>= 2.7.5), libgcc1 (>= 15.3.0), libstdc++6 (>= 15.3.0), libuv1 (>= 1.52.1), libz1 (>= 1.3.2)
+Filename: ./cmake_4.3.1-r0_amd64.deb
+Size: 13256572
+MD5sum: 48ae5e43f5d9d01846f4efd2af860fee
+SHA1: 7e2ec54f6fec59ae0af1cb84d8f75e97382b3288
+SHA256: d14bf7bd31954c68218cd4960b07cd31f91f312b6677ba3eacc3f63358c981c5
+SHA512: c8041b83bdb64a9a17820a8ff2dedda07f51de8b8a4b1929b0df5e0997aa93800a359d2f908cfbeb580ce43bf2ce8dfeb73fdc032b9263f98575bf56c5d7f85b
+Homepage: http://www.cmake.org/
+Description: Cross-platform, open-source make system
+ CMake is used to control the software compilation process using simple
+ platform and compiler independent configuration files. CMake generates
+ native makefiles and workspaces that can be used in the compiler
+ environment of your choice.
+OE: cmake
+PackageArch: zen2
+
 Package: connman
 Architecture: amd64
 Version: 2.0-r0
@@ -1608,6 +1630,50 @@ Description: GNU cc and gcc C compilers
 OE: gcc
 PackageArch: zen2
 
+Package: gdb
+Architecture: amd64
+Version: 17.1-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libc6 (>= 2.43+git0+e9517114ac), libdebuginfod1 (>= 0.194), libexpat1 (>= 2.7.5), libgcc1 (>= 15.3.0), libgmp10 (>= 6.3.0), liblzma5 (>= 5.8.2), libmpfr6 (>= 4.2.2), libpython3.14-1.0 (>= 3.14.5), libreadline8 (>= 8.3), libstdc++6 (>= 15.3.0), libtinfo5 (>= 6.6), libzstd1 (>= 1.5.7), python3-codecs
+Recommends: glibc-thread-db
+Filename: ./gdb_17.1-r0_amd64.deb
+Size: 3903580
+MD5sum: 8925682f0ac2686a0b610530ce8d419e
+SHA1: 1ef7eb4fb9508b5ac264b9d6212d2dcd98525638
+SHA256: f3b123b6108296ff27f3358e4ac3bf7602dc79c31eb8a23b9554bb6c1bba1832
+SHA512: 90366b0a978fd5d06e6fecaa26ca2ca6a6e2777a97f0e099a17f8ec2d990d8daf845d3bf414591c160dce3592df6418b973a878e124a6e008729732f516707b5
+Homepage: http://www.gnu.org/software/gdb/
+Description: GNU debugger
+ GDB, the GNU Project debugger, allows you to see what is going on inside
+ another program while it executes -- or what another program was doing at
+ the moment it crashed.
+OE: gdb
+PackageArch: zen2
+
+Package: gdbserver
+Architecture: amd64
+Version: 17.1-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 15.3.0), libstdc++6 (>= 15.3.0)
+Recommends: glibc-thread-db
+Filename: ./gdbserver_17.1-r0_amd64.deb
+Size: 253080
+MD5sum: 771bd7d67a3f022fe779b57079a6520f
+SHA1: 39e8f0ffb153b2b91914e4f07e756117c098e72d
+SHA256: 31f704141c5fdad27b939a9349f10024b52328beccc1eca7dda8488ea104ab7e
+SHA512: 5e55744a688f1015805b74d4770c81fe4f136708c63f87ba226b4545f494c9c50bbc0416842bc46e5a0e271e47783b349803fc4d62013ceefde40083b1196b1c
+Homepage: http://www.gnu.org/software/gdb/
+Description: GNU debugger
+ GDB, the GNU Project debugger, allows you to see what is going on inside
+ another program while it executes -- or what another program was doing at
+ the moment it crashed.
+OE: gdb
+PackageArch: zen2
+
 Package: gettext
 Architecture: amd64
 Version: 1.0-r0
@@ -1957,6 +2023,29 @@ Description: GNU grep utility
  Grep searches one or more input files for lines containing a match to a
  specified pattern. By default, grep prints the matching lines.
 OE: grep
+PackageArch: zen2
+
+Package: gstreamer1.0-dev
+Architecture: amd64
+Version: 1.28.2-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: glib-2.0-dev, gstreamer1.0
+Recommends: glib-2.0-dev, glibc-dev, glibc-gconv-iso8859-5-dev, gnome-desktop-testing-dev, gobject-introspection-dev, gstreamer1.0 (= 1.28.2-r0), libxml2-dev
+Filename: ./gstreamer1.0-dev_1.28.2-r0_amd64.deb
+Size: 540800
+MD5sum: 7f4641d529f19ae5e7c50acb69657172
+SHA1: 98ddb5a322f61412775d1f22d0d759ded3bd42d3
+SHA256: b9a7fca05dee32d9d75cc1f1b0b726524213a4d7b8cb8b5b6431e952603eec61
+SHA512: cb2dfc2b27941e73bb77367d4e750af1ae5ed0992397d8ab27715078ccf24b31a82936e98ac0a9c3af761d61411461828d1b26c80aeffde231d95092270ce85e
+Homepage: http://gstreamer.freedesktop.org/
+Description: GStreamer 1.0 multimedia framework - Development files
+ GStreamer is a multimedia framework for encoding and decoding video and
+ sound. It supports a wide range of formats including mp3, ogg, avi, mpeg
+ and quicktime.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: gstreamer1.0
 PackageArch: zen2
 
 Package: gstreamer1.0-libav
@@ -10010,6 +10099,30 @@ Description: A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and 
 OE: glfw
 PackageArch: zen2
 
+Package: libglib-2.0-dev
+Architecture: amd64
+Version: 1:2.88.0-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Provides: glib-2.0-dev
+Depends: glib-2.0, glib-2.0-utils, libffi-dev, libpcre2-dev, util-linux-dev, zlib-dev
+Recommends: bash-completion-dev, coreutils-dev, dbus-dev, desktop-file-utils-dev, glib-2.0-codegen-dev, glib-2.0-initial-dev, glib-2.0-locale-el-dev, glib-2.0-locale-fr-dev, glib-2.0-locale-hr-dev, glib-2.0-locale-ja-dev, glib-2.0-locale-lt-dev, glib-2.0-locale-pl-dev, glib-2.0-locale-ru-dev, glib-2.0-locale-th-dev, glib-2.0-utils-dev, glibc-charmap-cp1255-dev, glibc-charmap-invariant-dev, glibc-charmap-utf-8-dev, glibc-dev, glibc-gconv-cp1255-dev, glibc-gconv-euc-jp-dev, glibc-gconv-iso8859-1-dev, glibc-gconv-iso8859-15-dev, glibc-gconv-utf-16-dev, glibc-gconv-utf-32-dev, glibc-gconv-utf-7-dev, glibc-localedata-translit-cjk-variants-dev, gnome-desktop-testing-dev, gobject-introspection-dev, libffi-dev, libgcc-dev, libglib-2.0-0 (= 1:2.88.0-r0), libpcre2-dev, locale-base-c-dev, locale-base-de-de-dev, locale-base-el-gr-dev, locale-base-en-gb-dev, locale-base-en-us-dev, locale-base-es-es-dev, locale-base-fa-ir-dev, locale-base-fr-fr-dev, locale-base-hr-hr-dev, locale-base-ja-jp.euc-jp-dev, locale-base-lt-lt-dev, locale-base-pl-pl-dev, locale-base-pl-pl.iso-8859-2-dev, locale-base-ru-ru-dev, locale-base-tr-tr-dev, python3-core-dev, python3-dbusmock-dev, python3-dev, python3-modules-dev, python3-packaging-dev, python3-xml-dev, shared-mime-info-dev, tzdata-americas-dev, tzdata-asia-dev, tzdata-dev, tzdata-europe-dev, tzdata-posix-dev, util-linux-dev, util-linux-libmount-dev, zlib-dev
+Filename: ./libglib-2.0-dev_2.88.0-r0_amd64.deb
+Size: 1154736
+MD5sum: 8381cd4f5c3ef8809fdedc5ea2602442
+SHA1: 28c956d63970a5516ad04a385c45fbaee370f5f8
+SHA256: ece49c0be923da36645a3133ed65a0cad0ac58ce3f3892b7812aea8de6a2fe88
+SHA512: 6d128e5b1ef4685096369f58b6e920b4d78bd972a06389b3bbefd2212881837122fc9a53d0932afe696bab7994b740d6162904f0dff8f809c8779f655a58bbe2
+Homepage: https://developer.gnome.org/glib/
+Description: A general-purpose utility library - Development files
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: glib-2.0
+PackageArch: zen2
+
 Package: libglib-2.0-locale-en-gb
 Architecture: amd64
 Version: 1:2.88.0-r0
@@ -11337,6 +11450,32 @@ Description: Internationalized Domain Name support library - Development files
  This package contains symbolic links, header files, and related items
  necessary for software development.
 OE: libidn2
+PackageArch: zen2
+
+Package: libinput-dev
+Architecture: amd64
+Version: 1.30.1-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libinput, systemd-dev
+Recommends: glibc-dev, libevdev-dev, libinput10 (= 1.30.1-r0), libsystemd-dev, libudev-dev, mtdev-dev, systemd-dev, udev-dev
+Filename: ./libinput-dev_1.30.1-r0_amd64.deb
+Size: 34456
+MD5sum: 2cc38ac6d7710a863308b8aaffdbef41
+SHA1: e3f4f3d291174e640aebbb953d2f47001c6fdf4c
+SHA256: 81ab151a03fe4f2017ea44790bf31514771916e9831c42e2e430b9fd2b477da0
+SHA512: 0ea59e6196543c942e0fe959b1ea85ca42f775cd22f635fbbe5173d0f637d24f2b0df093c16ea17743eb8cbd186e7f776d51fba8b404e53cd5bbe8b68fa17526
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Description: Library to handle input devices in Wayland compositors - Development files
+ libinput is a library to handle input devices in Wayland compositors and
+ to provide a generic X.Org input driver. It provides device detection,
+ device handling, input device event processing and abstraction so
+ minimize the amount of custom input code compositors need to provide the
+ common set of functionality that users expect.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: libinput
 PackageArch: zen2
 
 Package: libinput10
@@ -14216,6 +14355,28 @@ Description: A suite of basic system administration utilities - Development file
 OE: util-linux-libuuid
 PackageArch: zen2
 
+Package: libuv1
+Architecture: amd64
+Version: 1.52.1-r0
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Provides: libuv
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Filename: ./libuv1_1.52.1-r0_amd64.deb
+Size: 81936
+MD5sum: d2021c79f7060a55674d263b22229c4d
+SHA1: 48fb24a88d745fe063cd3bef12fc38d19decdfec
+SHA256: 46f739a4827f2b2862795366ebd8eec6ed4354f9d20924e7d5deed287b2cb130
+SHA512: b8a3e915a9f493f0afa4af1622552c41c35abca591689e9c771065b04ad5f7da9693c82e73779a9e4ed3b1ef60f439ac04a3c67e3be78a4f781014da60983081
+Homepage: https://github.com/libuv/libuv
+Description: A multi-platform support library with a focus on asynchronous I/O
+ libuv is a multi-platform support library with a focus on asynchronous
+ I/O. It was primarily developed for use by Node.js, but it's also used by
+ Luvit, Julia, pyuv, and others.
+OE: libuv
+PackageArch: zen2
+
 Package: libv4l
 Architecture: amd64
 Version: 1.32.0-r0
@@ -15465,6 +15626,29 @@ Description: XI: X Input extension library
 OE: libxi
 PackageArch: zen2
 
+Package: libxkbcommon-dev
+Architecture: amd64
+Version: 1.13.1-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libxcb-dev, libxkbcommon, libxkbcommon-x11, libxkbregistry, libxml2-dev
+Recommends: bash-completion-dev, glibc-dev, libxcb-dev, libxcb-xkb-dev, libxkbcommon-x11-dev, libxkbcommon0 (= 1.13.1-r0), libxkbregistry-dev, libxml2-dev, wayland-dev, wayland-protocols-dev, xkeyboard-config-dev
+Filename: ./libxkbcommon-dev_1.13.1-r0_amd64.deb
+Size: 63500
+MD5sum: 512d7b2e9f907742a8b2b48b013e7f49
+SHA1: 586bb53fbbca41b25a362cebf82efe719b2c5b58
+SHA256: 03341e70deff63453b61e8ec0ec514a4f742849d744fbbfb2d2de8bfa5d5eccc
+SHA512: 97eb462519e787dd8af06252ce0da90969701aaea0213628d6916597478de1da3fc71a9b4e78e86d6a1a777e31e90eceb946a74407239930a48ca21379f1224d
+Homepage: http://www.xkbcommon.org
+Description: Generic XKB keymap library - Development files
+ libxkbcommon is a keymap compiler and support library which processes a
+ reduced subset of keymaps as defined by the XKB specification.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: libxkbcommon
+PackageArch: zen2
+
 Package: libxkbcommon-x11-0
 Architecture: amd64
 Version: 1.13.1-r0
@@ -15525,6 +15709,26 @@ Description: XKB: X Keyboard File manipulation library
  libxkbfile provides an interface to read and manipulate description files
  for XKB, the X11 keyboard configuration extension.
 OE: libxkbfile
+PackageArch: zen2
+
+Package: libxkbregistry0
+Architecture: amd64
+Version: 1.13.1-r0
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Provides: libxkbregistry
+Depends: libc6 (>= 2.43+git0+e9517114ac), libxml2 (>= 2.15.2)
+Filename: ./libxkbregistry0_1.13.1-r0_amd64.deb
+Size: 13628
+MD5sum: 1fce05a01da0bcd98c3ac71086b53458
+SHA1: 7375d81aec368b59ef3585498b593273c42eca70
+SHA256: 7e8d73676afb73b83495b79153a02f0526acafbf809ac7adecb25d679345dd8c
+SHA512: 6ba73fca61b5ac6ef3c1bbd93cd61d577a4a55a803b7385b36536d70e8ae2a0a11800570a41e92d9411e3941e08ebf9601c20c4ea1514a50c89dccf6f747842c
+Homepage: http://www.xkbcommon.org
+Description: libxkbregistry library
+ libxkbregistry library
+OE: libxkbcommon
 PackageArch: zen2
 
 Package: libxml2-dev
@@ -16063,10 +16267,10 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Depends: libc6 (>= 2.43+git0+e9517114ac), libgcc1 (>= 15.3.0), libstdc++6 (>= 15.3.0), libz1 (>= 1.3.2)
 Filename: ./lshw_02.20-plus-git0-plus-4c6497c8b0-r0_amd64.deb
 Size: 2342572
-MD5sum: 9c13067d8a235213948fb4ac318f3d6e
-SHA1: acd25bf4173c2a6969d0f5ca75cfe93a9b53bf14
-SHA256: c4601e9b4559b93309fc48b825664ee96cb3a31685f7d256afb03f4857f849c8
-SHA512: 32a8021734105fde6402758337490708eedc3427ee544b67d3475a9bec0209954bd48938e5ebae67d86e84ded310592a114cb8a5fe9777465e4e52477b16aa65
+MD5sum: ace81ba3c69e9e2d785759a7224021b7
+SHA1: f74db4b19e9d70e907f86b602389f3476464ebea
+SHA256: f7261178ac9e8f1d3cf62ebf05e609eeffd89213a1d5870a3538feddf3be0f86
+SHA512: eaac632530717ad01b006f0a96ce5accfbc702f0441bf304542a4104a05912124d58d6c3216a2777b2631b445e744e54e612a24748754cd58371809a4e481289
 Homepage: http://ezix.org/project/wiki/HardwareLiSter
 Description: Hardware lister
  A small tool to provide detailed information on the hardware
@@ -16074,6 +16278,27 @@ Description: Hardware lister
  firmware version, mainboard configuration, CPU version and speed, cache
  configuration, bus speed, etc. on DMI-capable or EFI systems.
 OE: lshw
+PackageArch: zen2
+
+Package: ltrace
+Architecture: amd64
+Version: 2:0.8.1-r0
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libc6 (>= 2.43+git0+e9517114ac), libdw1 (>= 0.194), libelf1 (>= 0.194)
+Filename: ./ltrace_0.8.1-r0_amd64.deb
+Size: 127816
+MD5sum: 95eff2f087be37011231a9f2ba1dbb4a
+SHA1: c70b03258078ef5c893417f1e2012f069b442880
+SHA256: 3b7d13f5a9183e33bea8cdbe08cf9607d0a078b28deb7a1858a31f37bb5b61d6
+SHA512: e8fb78a6f9b834accbc9476480af2ba54f82d81a12c22a1884cb04e7c9d65104f057f05e5ab0d2ca5a44a3084865eee53e5240f2c0b60324880e8bd961931175
+Homepage: http://ltrace.org/
+Description: ltrace intercepts and records dynamic library calls
+ ltrace intercepts and records dynamic library calls which are called by
+ an executed process and the signals received by that process. It can also
+ intercept and print the system calls executed by the program.
+OE: ltrace
 PackageArch: zen2
 
 Package: luajit
@@ -16261,6 +16486,35 @@ Description: Mesa demo applications
  This package includes the demonstration application, such as glxgears.
  These applications can be used for Mesa validation and benchmarking.
 OE: mesa-demos
+PackageArch: zen2
+
+Package: mesa-dev
+Architecture: amd64
+Version: 2:25.3.3-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Provides: mesa-dri-dev
+Depends: libdrm-dev
+Recommends: elfutils-dev, expat-dev, libclc-dev, libdrm-dev, libva-initial-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxshmfence-dev, libxxf86vm-dev, llvm-dev, spirv-llvm-translator-dev, spirv-tools-dev, vulkan-headers-dev, vulkan-loader-dev, wayland-dev, wayland-protocols-dev, xorgproto-dev, xrandr-dev, zlib-dev
+Conflicts: mesa-dri-dev
+Replaces: mesa-dri-dev
+Filename: ./mesa-dev_25.3.3-r0_amd64.deb
+Size: 19480
+MD5sum: f9357b5dcd58fc40951528e022e8b481
+SHA1: 99a3bf542b4ffe4d6513494b0e0bd112e70bb911
+SHA256: 4ca6d559608eb2db780afb9d1ea9e72338561b0676ee9199dd5474e3846e61e3
+SHA512: 3d7e0b8a6961184ef6745b805833917fbf7beb5b3a3aef12285a7112dc2dbcb2f6a56f97dd66acb69fa28fe2976d0a92f42ce893e37834f3dbdeab97498a6ad6
+Homepage: http://mesa3d.org
+Description: A free implementation of the OpenGL API - Development files
+ Mesa is an open-source implementation of the OpenGL specification - a
+ system for rendering interactive 3D graphics.  A variety of device
+ drivers allows Mesa to be used in many different environments ranging
+ from software emulation to complete hardware acceleration for modern
+ GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure
+ and X.org environment.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: mesa
 PackageArch: zen2
 
 Package: mesa-megadriver
@@ -16633,6 +16887,27 @@ Description: Opencv : The Open Computer Vision Library
 OE: opencv
 PackageArch: zen2
 
+Package: opencv-dev
+Architecture: amd64
+Version: 4.13.0-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Recommends: ade-dev, bzip2-dev, ffmpeg-dev, gflags-dev, glib-2.0-dev, glog-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, gtk+3-dev, jpeg-dev, libeigen-dev, libgphoto2-dev, libopencv-alphamat-dev, libopencv-aruco-dev, libopencv-bgsegm-dev, libopencv-bioinspired-dev, libopencv-calib3d-dev, libopencv-ccalib-dev, libopencv-core-dev, libopencv-datasets-dev, libopencv-dpm-dev, libopencv-face-dev, libopencv-features2d-dev, libopencv-flann-dev, libopencv-fuzzy-dev, libopencv-gapi-dev, libopencv-hfs-dev, libopencv-highgui-dev, libopencv-img-hash-dev, libopencv-imgcodecs-dev, libopencv-imgproc-dev, libopencv-intensity-transform-dev, libopencv-line-descriptor-dev, libopencv-ml-dev, libopencv-objdetect-dev, libopencv-optflow-dev, libopencv-phase-unwrapping-dev, libopencv-photo-dev, libopencv-plot-dev, libopencv-quality-dev, libopencv-rapid-dev, libopencv-reg-dev, libopencv-rgbd-dev, libopencv-saliency-dev, libopencv-sfm-dev, libopencv-shape-dev, libopencv-signal-dev, libopencv-stereo-dev, libopencv-stitching-dev, libopencv-structured-light-dev, libopencv-superres-dev, libopencv-surface-matching-dev, libopencv-tracking-dev, libopencv-ts-dev, libopencv-video-dev, libopencv-videoio-dev, libopencv-videostab-dev, libopencv-xfeatures2d-dev, libopencv-ximgproc-dev, libopencv-xobjdetect-dev, libopencv-xphoto-dev, libpng-dev, libtool-dev, libwebp-dev, opencv-apps-dev, opencv-samples-dev, python3-dev, python3-numpy-dev, python3-opencv-dev, tbb-dev, tiff-dev, v4l-utils-dev, zlib-dev
+Filename: ./opencv-dev_4.13.0-r0_amd64.deb
+Size: 1169536
+MD5sum: d53f9f2abb07a2a67c01df58a3e2ed5f
+SHA1: 78995ef5c696b002bfc8dc2b41a0b39aec3b4fdc
+SHA256: e82ec5747dc1946c96b09754beaa3150bbf295539be5749570cb3c0c77075bb3
+SHA512: 8fe2e293265d768a7af94adcc3b34c677e1d8070b7b703af40f81d8067a179e6e25b08c06cfe7f83cae140337e58ee5d62995afc68e10b190298e183968a15dc
+Homepage: http://opencv.org/
+Description: Opencv : The Open Computer Vision Library - Development files
+ Opencv : The Open Computer Vision Library.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: opencv
+PackageArch: zen2
+
 Package: opencv-samples
 Architecture: amd64
 Version: 4.13.0-r0
@@ -16689,6 +16964,25 @@ Description: openjpeg version 2.5.4-r0
 OE: openjpeg
 PackageArch: zen2
 
+Package: openssl-bin
+Architecture: amd64
+Version: 3.5.7-r0
+Priority: optional
+Section: libs/network
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libc6 (>= 2.43+git0+e9517114ac), libcrypto3 (>= 3.5.7), libssl3 (>= 3.5.7), openssl-conf
+Filename: ./openssl-bin_3.5.7-r0_amd64.deb
+Size: 340904
+MD5sum: fbaeb77b11247a8b45fc592e73b70129
+SHA1: dce4c2039848b75837e5cc9015449f162ebef2d1
+SHA256: 525e98295eb1d115105f1139a1a5dd8851c913ae0610484b7a13b9b6e74a6106
+SHA512: 55be84a81bc6b52be858354a87aa787311775b4621285e14425681be85f5b1aaab4763ef7bdbe782b616be928cf77fcca0619e863a2bbeb456141a6fbc289f0b
+Homepage: http://www.openssl.org/
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+OE: openssl
+PackageArch: zen2
+
 Package: openssl-dev
 Architecture: amd64
 Version: 3.5.7-r0
@@ -16709,6 +17003,67 @@ Description: Secure Socket Layer - Development files
  package contains symbolic links, header files, and related items
  necessary for software development.
 OE: openssl
+PackageArch: zen2
+
+Package: openssl
+Architecture: amd64
+Version: 3.5.7-r0
+Priority: optional
+Section: libs/network
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Filename: ./openssl_3.5.7-r0_amd64.deb
+Size: 1248
+MD5sum: 958fb2fdc43cd07ac60037b6a5e7d3be
+SHA1: d1a28690997663f745ad71c83aeddf2107a068f2
+SHA256: d8ba7f4820870f5b4623483a70089e36a61fd1729f06be399c4271fdcc4d71dc
+SHA512: f215df39a50a9b2add096e169b4e4cc544f24a4452c2d6b2cb543015f19868d654d38f1b1362696ae4fdbe382e2554506eb04172c4bbf5b7ffa849b9d0adde72
+Homepage: http://www.openssl.org/
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+OE: openssl
+PackageArch: zen2
+
+Package: packagegroup-amd-dbg
+Architecture: amd64
+Version: 1.0-r0
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: binutils, elfutils, gdb, gdbserver, lsof, ltrace, perf, strace, valgrind
+Filename: ./packagegroup-amd-dbg_1.0-r0_amd64.deb
+Size: 1032
+MD5sum: 93cbfa902245acb4408d90488daf60e8
+SHA1: 97e8d05745d2cfce8676d0db3e6ca308890e75ac
+SHA256: 7e83b9ca023ebfa2b44e19d12f1f2d4ec8baa81247a22324e1f14123c07f41e5
+SHA512: 0ebd040f8e9071a506281eec67e90e0108095a2962b0c23b8f2c79847ce94cd9b9f469f1f705c97c7787d2ba64ff1519bc75382e8df3306ba823d3f4709ff69a
+Description: Debug and tracing tools, installable at runtime via apt
+ Not installed in the production image. Install on a target with 'apt
+ install packagegroup-amd-dbg' to gain debuggers, tracers and profilers.
+ Note: production binaries are stripped, so gdb gives no source lines or
+ variable inspection; syscall tracing (strace/ltrace) and profiling (perf)
+ work fully. Build and install the matching <pkg>-dbg package if symbol-
+ level debugging is needed.
+OE: packagegroup-amd-dbg
+PackageArch: zen2
+
+Package: packagegroup-amd-dev
+Architecture: amd64
+Version: 1.0-r0
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: autoconf, automake, binutils, cmake, cpp, cpp-symlinks, g++, g++-symlinks, gcc, gcc-symlinks, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, libclc-dev, libdrm-dev, libegl-mesa-dev, libgl-mesa-dev, libgles2-mesa-dev, libinput-dev, libstdc++-dev, libtool, libxkbcommon-dev, llvm-dev, m4, make, mesa-dev, opencv-dev, openssl-dev, perl-dev, pkgconf, python3-dev, spirv-tools-dev, vulkan-loader-dev, wayland-dev
+Filename: ./packagegroup-amd-dev_1.0-r0_amd64.deb
+Size: 1044
+MD5sum: f4699451f2d84624ab99c7d0a30414cb
+SHA1: 7881342fe349bae1026d1b5f5a58d8954fab4970
+SHA256: 85924d8c65e91337d2baca84126afe3e9416ea63b7d7fdbe6910852023926893
+SHA512: d6591d065e836558c71f4e45b99050bd26d5d05c3db9d475e55bdceae751dfc21f757c7b278a6d43f6fa4f33ffd597cb465eab29e014f8ad33d1c8d27fb0a321
+Description: Development toolchain and headers, installable at runtime via apt
+ Not installed in the production image. Install on a target with 'apt
+ install packagegroup-amd-dev' to gain a native toolchain and the headers
+ needed to build software on the device.
+OE: packagegroup-amd-dev
 PackageArch: zen2
 
 Package: packagegroup-amd-gpu-hang
@@ -19391,6 +19746,28 @@ Description: spitools version 1.0.2-r0
 OE: spitools
 PackageArch: zen2
 
+Package: strace
+Architecture: amd64
+Version: 6.19-r1
+Priority: optional
+Section: console/utils
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Filename: ./strace_6.19-r1_amd64.deb
+Size: 451928
+MD5sum: 400ce0888087033ff522cd2c5790f390
+SHA1: ceaccb64f3fb0b28774ead5bcbe37a7cf60e596a
+SHA256: 16e7e4c1c34e070d1193143e3feea498431ba886095c8d764925d6bbc5e612b7
+SHA512: 367db51813da8b2a99c8e8fab06a96f1625f9f9890e58fc354ac2568a3b548274e1184323e54b80126f22ee0905139716e1bb230316589f7d7dadd645cbbeacb
+Homepage: http://strace.io
+Description: System call tracing tool
+ strace is a diagnostic, debugging and instructional userspace utility for
+ Linux. It is used to monitor and tamper with interactions between
+ processes and the Linux kernel, which include system calls, signal
+ deliveries, and changes of process state.
+OE: strace
+PackageArch: zen2
+
 Package: stress-ng
 Architecture: amd64
 Version: 0.20.01-r0
@@ -19412,6 +19789,34 @@ Description: System load testing utility
  Deliberately simple workload generator for POSIX systems. It imposes a
  configurable amount of CPU, memory, I/O, and disk stress on the system.
 OE: stress-ng
+PackageArch: zen2
+
+Package: systemd-dev
+Architecture: amd64
+Version: 1:259.5-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libsystemd, libudev
+Recommends: acl-dev, base-files-dev, base-passwd-dev, bash-completion-dev, bash-dev, dbus-dev, glibc-dev, kbd-consolefonts-dev, kbd-dev, kbd-keymaps-dev, kmod-dev, ldconfig-dev, libcap-dev, libkmod-dev, libnss-myhostname-dev, libnss-mymachines-dev, libnss-resolve-dev, libnss-systemd-dev, libpam-dev, libseccomp-dev, libsystemd-dev, libsystemd-shared-dev, libudev-dev, libxcrypt-dev, libxkbcommon-dev, pam-plugin-keyinit-dev, pam-plugin-loginuid-dev, pam-plugin-namespace-dev, pam-plugin-unix-dev, python3-compression-dev, python3-core-dev, python3-crypt-dev, python3-datetime-dev, python3-io-dev, python3-json-dev, python3-netclient-dev, python3-pefile-dev, python3-pprint-dev, python3-pydoc-dev, python3-shell-dev, shadow-dev, shadow-sysroot-dev, shared-mime-info-data-dev, shared-mime-info-dev, systemd (= 1:259.5-r0), systemd-serialgetty-dev, systemd-udev-rules-dev, systemd-vconsole-setup-dev, udev-dev, update-alternatives-opkg-dev, util-linux-agetty-dev, util-linux-dev, util-linux-fsck-dev, util-linux-mkswap-dev, util-linux-mount-dev, util-linux-swaponoff-dev, util-linux-umount-dev, volatile-binds-dev, zstd-dev
+Filename: ./systemd-dev_259.5-r0_amd64.deb
+Size: 41576
+MD5sum: 9e4905b21a47c2054886a60bea4d4f25
+SHA1: 2806f37fe38ca3b4349bdcc3c4676c4706f98019
+SHA256: b0e6b13329561374a2427d7cec9a4ce35ced15c9e1c7ab737283e6b3e0417703
+SHA512: 5f961c0c5daa0ed21e6e8269f09b86f0d6fc7c682e1bfdd759c7b931545b6914a1e0bc28cda742c7ecd0385ee13eca9bb94e58162fc66645ccd7f7a8c6702aa8
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: A System and service manager - Development files
+ systemd is a system and service manager for Linux, compatible with SysV
+ and LSB init scripts. systemd provides aggressive parallelization
+ capabilities, uses socket and D-Bus activation for starting services,
+ offers on-demand starting of daemons, keeps track of processes using
+ Linux cgroups, supports snapshotting and restoring of the system state,
+ maintains mount and automount points and implements an elaborate
+ transactional dependency-based service control logic. It can work as a
+ drop-in replacement for sysvinit.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: systemd
 PackageArch: zen2
 
 Package: tar
@@ -19999,6 +20404,32 @@ SHA512: 4c8d874d18b61617baddd18c1f2e7575c96340cd73b9f2acee287b755f55b7ec6de457fc
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: util-linux delpart
  util-linux delpart
+OE: util-linux
+PackageArch: zen2
+
+Package: util-linux-dev
+Architecture: amd64
+Version: 2.41.3-r0
+Priority: optional
+Section: devel
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Provides: util-linux-libblkid-dev, util-linux-libmount-dev
+Depends: libsqlite3-dev, util-linux-libblkid, util-linux-libfdisk, util-linux-liblastlog2, util-linux-libmount, util-linux-libsmartcols, util-linux-libuuid-dev
+Recommends: bash-completion-dev, bash-dev, bc-dev, btrfs-tools-dev, coreutils-dev, diffutils-dev, e2fsprogs-dev, findutils-dev, glibc-dev, grep-dev, iproute2-dev, kmod-dev, libcap-ng-dev, libpam-dev, libsqlite3-dev, libxcrypt-dev, ncurses-dev, ncurses-libncursesw-dev, ncurses-libtinfo-dev, procps-dev, sed-dev, socat-dev, sqlite3-dev, update-alternatives-opkg-dev, util-linux (= 2.41.3-r0), util-linux-agetty-dev, util-linux-blkid-dev, util-linux-blockdev-dev, util-linux-cal-dev, util-linux-chfn-dev, util-linux-chrt-dev, util-linux-chsh-dev, util-linux-dmesg-dev, util-linux-eject-dev, util-linux-fallocate-dev, util-linux-fdisk-dev, util-linux-findfs-dev, util-linux-findmnt-dev, util-linux-flock-dev, util-linux-fsck-dev, util-linux-fsfreeze-dev, util-linux-fstrim-dev, util-linux-getopt-dev, util-linux-hexdump-dev, util-linux-hwclock-dev, util-linux-ionice-dev, util-linux-ipcrm-dev, util-linux-ipcs-dev, util-linux-kill-dev, util-linux-last-dev, util-linux-libblkid-dev, util-linux-libfdisk-dev, util-linux-liblastlog2-dev, util-linux-libmount-dev, util-linux-libsmartcols-dev, util-linux-libuuid-dev, util-linux-logger-dev, util-linux-losetup-dev, util-linux-lsblk-dev, util-linux-mcookie-dev, util-linux-mesg-dev, util-linux-mkswap-dev, util-linux-more-dev, util-linux-mount-dev, util-linux-mountpoint-dev, util-linux-nologin-dev, util-linux-nsenter-dev, util-linux-pivot-root-dev, util-linux-prlimit-dev, util-linux-readprofile-dev, util-linux-renice-dev, util-linux-rev-dev, util-linux-rfkill-dev, util-linux-rtcwake-dev, util-linux-scriptreplay-dev, util-linux-setpriv-dev, util-linux-setsid-dev, util-linux-su-dev, util-linux-sulogin-dev, util-linux-swapoff-dev, util-linux-swapon-dev, util-linux-switch-root-dev, util-linux-taskset-dev, util-linux-umount-dev, util-linux-unshare-dev, util-linux-utmpdump-dev, util-linux-uuidgen-dev, util-linux-wall-dev, xz-dev, zlib-dev
+Filename: ./util-linux-dev_2.41.3-r0_amd64.deb
+Size: 21304
+MD5sum: 8bf10436a5261250a4950b2ed3c0aa66
+SHA1: 41058f3e6f855fa72c0a16a4c0875fd46d4f88c7
+SHA256: bed1134221e330c9be70d1544a5f999f35e4c0fa0cf6ac9ce3a7c94b6bb00cd8
+SHA512: 85a8fe9649b17597f1f7cc0dc26f2c27718162f0475fad9672156bed7cadf81a9464d49f93eb8f48bfff87fe91b3f02fe097497e9bbc7c58ecd7a57835cf7152
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Description: A suite of basic system administration utilities - Development files
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
 OE: util-linux
 PackageArch: zen2
 
@@ -21677,6 +22108,28 @@ Description: X autotools macros - Development files
  contains symbolic links, header files, and related items necessary for
  software development.
 OE: util-macros
+PackageArch: zen2
+
+Package: valgrind
+Architecture: amd64
+Version: 3.26.0-r0
+Priority: optional
+Section: base
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Depends: libc6 (>= 2.43+git0+e9517114ac)
+Recommends: glibc-dbg
+Filename: ./valgrind_3.26.0-r0_amd64.deb
+Size: 3368224
+MD5sum: f0475c00cfc4e72c08136526eb061f8b
+SHA1: 56c63eff3ba5ae56d797a9a36e2e777841aff248
+SHA256: f56a7ac04e85aa0f1dd28f82f770c6844ee2a691cea73d94cf8197d4fc3da6e2
+SHA512: 24c8b6a59bf416b1d109b6596d48ba06ccd1367625d4631ca46a00833a43a6067ac59e8cad779ba762a8af05af01eba80090c90c9878aed1b99ea7b9ec2fda61
+Homepage: http://valgrind.org/
+Description: Valgrind memory debugger and instrumentation framework
+ Valgrind is an instrumentation framework for building dynamic analysis
+ tools. There are Valgrind tools that can automatically detect many memory
+ management and threading bugs, and profile your programs in detail.
+OE: valgrind
 PackageArch: zen2
 
 Package: vim-common
